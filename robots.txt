@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shivamrajput-ds.github.io/portfolio-website/sitemap.xml

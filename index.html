@@ -1,507 +1,434 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shivam Rajput | Data Science Portfolio</title>
-  <meta name="description" content="Shivam Rajput — Data Science, ML, NLP, and GenAI/RAG intern candidate portfolio with case studies, demos, Docker proof, and engineering evidence." />
-  <meta name="author" content="Shivam Rajput" />
-  <meta name="theme-color" content="#070b14" />
-  <meta property="og:title" content="Shivam Rajput | Data Science Portfolio" />
-  <meta property="og:description" content="Case-study portfolio for Data Science, Machine Learning, NLP, and GenAI/RAG projects." />
-  <meta property="og:type" content="website" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="manifest" href="site.webmanifest" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-</head>
-
+<html class="no-js" lang="en">
+<head><script>document.documentElement.classList.replace('no-js','js');</script>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#020204" name="theme-color"/>
+<meta content="Shivam Rajput - Junior Data Scientist portfolio with large-scale complaint analytics, statistical experimentation, human-reviewed ML auditing and evaluated enterprise RAG." name="description"/>
+<meta content="Shivam Rajput" name="author"/>
+<meta content="index,follow,max-image-preview:large" name="robots"/>
+<link href="https://shivamrajput-ds.github.io/portfolio-website/" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Shivam Rajput | Junior Data Scientist" property="og:title"/>
+<meta content="Four evidence-first Data Science and Applied AI projects: 15.95M-row analytics, a 588K-user experiment, ML audit workflows and evaluated hybrid RAG." property="og:description"/>
+<meta content="https://shivamrajput-ds.github.io/portfolio-website/" property="og:url"/>
+<meta content="https://shivamrajput-ds.github.io/portfolio-website/assets/images/og-card.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<title>Shivam Rajput | Junior Data Scientist</title>
+<link href="assets/images/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="site.webmanifest" rel="manifest"/>
+<link href="styles.css" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://shivamrajput-ds.github.io/portfolio-website/#person",
+      "name": "Shivam Rajput",
+      "url": "https://shivamrajput-ds.github.io/portfolio-website/",
+      "image": "https://shivamrajput-ds.github.io/portfolio-website/assets/images/shivam-avatar.jpg",
+      "email": "mailto:shivamrajput.datascientist@gmail.com",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Uttaranchal University"
+      },
+      "knowsAbout": [
+        "Python",
+        "SQL",
+        "Data Science",
+        "Statistics",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Retrieval-Augmented Generation"
+      ],
+      "sameAs": [
+        "https://github.com/shivamrajput-ds",
+        "https://www.linkedin.com/in/shivam-rajput-b0407632b/",
+        "https://leetcode.com/u/ShivamSynapse/",
+        "https://www.kaggle.com/shivamja",
+        "https://hub.docker.com/u/shivamrajput130"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Selected data science and applied AI projects",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Customer Complaint Intelligence Platform",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Large-scale analytics, NLP, risk analysis and forecasting over 15.95M CFPB complaints.",
+            "codeRepository": "https://github.com/shivamrajput-ds/customer-complaint-intelligence",
+            "creator": {
+              "@id": "https://shivamrajput-ds.github.io/portfolio-website/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "SoftwareSourceCode",
+            "name": "Marketing A/B Testing and Statistical Experiment Analysis",
+            "programmingLanguage": "Python",
+            "description": "Statistical experiment analysis across 588,101 users with uplift, confidence intervals, effect-size interpretation and power planning.",
+            "codeRepository": "https://github.com/shivamrajput-ds/marketing-ab-testing-analysis",
+            "creator": {
+              "@id": "https://shivamrajput-ds.github.io/portfolio-website/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Agentic ML Audit Copilot",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
+            "description": "Deterministic-first tabular ML auditing with leakage and data-risk checks, a human review gate, baseline modeling, MLflow and SHAP.",
+            "codeRepository": "https://github.com/shivamrajput-ds/Agentic-ML-Audit-Copilot",
+            "creator": {
+              "@id": "https://shivamrajput-ds.github.io/portfolio-website/#person"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "SoftwareApplication",
+            "name": "Enterprise RAG Assistant",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "Two-route enterprise analytics and retrieval system with deterministic Pandas computation, hybrid BGE plus BM25 retrieval, reranking, citations and documented strict RAGAS evaluation.",
+            "codeRepository": "https://github.com/shivamrajput-ds/enterprise-rag-assistant",
+            "creator": {
+              "@id": "https://shivamrajput-ds.github.io/portfolio-website/#person"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+<meta content="Shivam Rajput data science portfolio with four evidence-first projects" property="og:image:alt"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="Shivam Rajput | Junior Data Scientist" name="twitter:title"/><meta content="Large-scale analytics, statistical experimentation, ML reliability and enterprise RAG - backed by public code, evaluation and demos." name="twitter:description"/><meta content="https://shivamrajput-ds.github.io/portfolio-website/assets/images/og-card.png" name="twitter:image"/><meta content="Shivam Rajput data science portfolio" name="twitter:image:alt"/></head>
 <body>
-  <div class="bg-gradient" aria-hidden="true"></div>
-  <div class="bg-grid" aria-hidden="true"></div>
-
-  <header class="header">
-    <nav class="nav">
-      <a href="#home" class="brand" aria-label="Shivam Rajput homepage">
-        <span>SR</span>
-        <strong>Shivam Rajput</strong>
-      </a>
-      <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation" aria-expanded="false">
-        <i></i><i></i>
-      </button>
-      <div class="nav-links" id="navLinks">
-        <a href="#projects">Projects</a>
-        <a href="#customer-complaint">Case Studies</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-        <a class="resume-btn" href="assets/Shivam_Rajput_Resume.pdf" target="_blank" rel="noopener">Resume</a>
-      </div>
-    </nav>
-  </header>
-
-  <main id="home">
-    <section class="hero container">
-      <div class="hero-copy reveal">
-        <p class="badge">Data Science Intern Candidate</p>
-        <h1>Data Science, ML, NLP & GenAI/RAG portfolio built with proof.</h1>
-        <p class="lead">
-          I build practical data and AI systems with large-scale preprocessing, model evaluation, APIs,
-          dashboards, Dockerized workflows, CI proof, and clear case-study documentation.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="#customer-complaint">Explore Case Studies</a>
-          <a class="btn secondary" href="assets/Shivam_Rajput_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
-        </div>
-        <div class="profile-links" aria-label="Profile links">
-          <a href="https://github.com/shivamrajput-ds" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.linkedin.com/in/shivam-rajput-b0407632b/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://leetcode.com/u/ShivamSynapse/" target="_blank" rel="noopener">LeetCode</a>
-          <a href="https://www.kaggle.com/shivamja" target="_blank" rel="noopener">Kaggle</a>
-          <a href="https://hub.docker.com/u/shivamrajput130" target="_blank" rel="noopener">Docker Hub</a>
-        </div>
-      </div>
-
-      <aside class="summary-card reveal delay-1">
-        <div class="status"><span></span><p>Open to DS / ML / NLP / GenAI internships</p></div>
-        <div class="summary-title">
-          <div class="avatar">SR</div>
-          <div>
-            <h2>Shivam Rajput</h2>
-            <p>B.Tech CSE (AI & ML)</p>
-          </div>
-        </div>
-        <div class="metrics">
-          <div><strong>15.95M</strong><small>complaints processed</small></div>
-          <div><strong>3</strong><small>end-to-end projects</small></div>
-          <div><strong>0.99</strong><small>ROC-AUC</small></div>
-          <div><strong>511+</strong><small>LeetCode solved</small></div>
-        </div>
-        <div class="command"><span>$</span><p id="commandText">Build → Debug → Explain</p></div>
-      </aside>
-    </section>
-
-    <section class="container section-block" id="projects">
-      <div class="section-heading reveal">
-        <p class="badge">Selected Projects</p>
-        <h2>Three projects with GitHub, YouTube demos, Docker proof, screenshots, and case-study evidence.</h2>
-      </div>
-      <div class="projects-list">
-        <article class="project-card reveal">
-      <div class="project-number">01</div>
-      <div class="project-main">
-        <p class="project-type">Large-Scale Analytics + NLP + Forecasting</p>
-        <h3>Customer Complaint Intelligence Platform</h3>
-        <p>An end-to-end intelligence platform built on 15.95M CFPB consumer complaints with chunked preprocessing, Parquet storage, executive analytics, company risk scoring, growth analysis, Prophet forecasting, NLP complaint prediction, and recommendation cards.</p>
-        <div class="metric-row"><span>15.95M complaints</span>
-<span>3.57% Forecast MAPE</span>
-<span>75.28% Product accuracy</span>
-<span>62.39% Issue accuracy</span></div>
-      </div>
-      <div class="project-actions">
-        <a href="https://github.com/shivamrajput-ds/customer-complaint-intelligence" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/customer-complaint-intelligence" target="_blank" rel="noopener">Docker Hub</a>
-        <a href="#customer-complaint">Case Study</a>
-      </div>
-    </article>
-<article class="project-card reveal">
-      <div class="project-number">02</div>
-      <div class="project-main">
-        <p class="project-type">Hybrid RAG + Analytics Engine + Feedback Loop</p>
-        <h3>Enterprise RAG Assistant</h3>
-        <p>A multi-format document assistant that supports PDF, CSV, TXT, JSON, XLS/XLSX, and DOCX files. It combines hybrid retrieval, a schema-aware analytics engine, source attribution, fallback behavior, FastAPI, Streamlit, Supabase feedback, Docker, and GitHub Actions.</p>
-        <div class="metric-row"><span>Multi-format ingestion</span>
-<span>Hybrid BM25 + vector search</span>
-<span>CrossEncoder reranking</span>
-<span>Pandas analytics engine</span></div>
-      </div>
-      <div class="project-actions">
-        <a href="https://github.com/shivamrajput-ds/enterprise-rag-assistant" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/enterprise-rag-assistant" target="_blank" rel="noopener">Docker Hub</a>
-        <a href="#enterprise-rag">Case Study</a>
-      </div>
-    </article>
-<article class="project-card reveal">
-      <div class="project-number">03</div>
-      <div class="project-main">
-        <p class="project-type">NLP Classification + FastAPI + MLflow</p>
-        <h3>Fake Job Posting Detector</h3>
-        <p>An end-to-end fraud detection project using TF-IDF, Logistic Regression, model comparison, MLflow tracking, FastAPI, Streamlit, Docker, explainability, tests, and CI proof.</p>
-        <div class="metric-row"><span>0.99 ROC-AUC</span>
-<span>0.88 Fraud precision</span>
-<span>0.84 Fraud recall</span>
-<span>0.86 Fraud F1</span></div>
-      </div>
-      <div class="project-actions">
-        <a href="https://github.com/shivamrajput-ds/fake-job-posting-detector" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/fake-job-posting-detector" target="_blank" rel="noopener">Docker Hub</a>
-        <a href="#fake-job-detector">Case Study</a>
-      </div>
-    </article>
-      </div>
-    </section>
-
-    <section class="container section-block">
-      <div class="proof-panel reveal">
-        <div>
-          <p class="badge">Proof-first positioning</p>
-          <h2>Not just project names — architecture, metrics, tests, Docker, CI, and product screenshots.</h2>
-        </div>
-        <div class="proof-list">
-          <p><strong>01</strong> Large-scale analytics on 15.95M complaint records.</p>
-          <p><strong>02</strong> GenAI/RAG system with hybrid retrieval, source attribution, and fallback behavior.</p>
-          <p><strong>03</strong> NLP fraud detection with MLflow, FastAPI, Streamlit, tests, and Docker.</p>
-          <p><strong>04</strong> Honest AI usage: AI-assisted learning/debugging, manually tested and explained.</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="case-wrapper container">
-      <section class="case-study section-block" id="customer-complaint">
-      <div class="case-head reveal">
-        <p class="badge">Large-Scale Analytics + NLP + Forecasting</p>
-        <h2>Customer Complaint Intelligence Platform</h2>
-        <p>An end-to-end intelligence platform built on 15.95M CFPB consumer complaints with chunked preprocessing, Parquet storage, executive analytics, company risk scoring, growth analysis, Prophet forecasting, NLP complaint prediction, and recommendation cards.</p>
-      </div>
-
-      <div class="case-grid">
-        <article class="case-panel reveal">
-          <h3>Problem</h3>
-          <p>Consumer complaint datasets are large, noisy, and difficult to convert into clear operational decisions. The goal was to build a system that turns complaint volume, company behavior, issue drivers, narratives, and forecast signals into prioritized business recommendations.</p>
-        </article>
-        <article class="case-panel reveal delay-1">
-          <h3>Engineering Challenge</h3>
-          <p>The main engineering challenge was handling 15.95M records on a laptop without pretending to have production-scale infrastructure. The solution used chunked processing, aggregation files, and Parquet to keep the workflow practical and explainable.</p>
-        </article>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Approach</h3>
-        <ul>
-          <li>Processed a large raw CFPB CSV using memory-safe chunked ingestion and Parquet storage.</li><li>Built executive, product, issue, company, geography, narrative, and channel analytics.</li><li>Created risk scoring, driver analysis, growth analysis, forecasting, NLP prediction, and recommendation modules.</li><li>Packaged the dashboard with Docker and added tests and CI proof.</li>
-        </ul>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <div class="split-title">
-          <div>
-            <h3>Proof Gallery</h3>
-            <p>Click any image to view it larger.</p>
-          </div>
-          <div class="case-links"><a href="https://github.com/shivamrajput-ds/customer-complaint-intelligence" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/ZrXg5p7wbqM?si=yEwHq2tT-l8_nTfY" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/customer-complaint-intelligence" target="_blank" rel="noopener">Docker Hub</a></div>
-        </div>
-        <div class="gallery-grid">
-          <button class="shot" type="button" data-full="assets/images/customer/end-to-end-workflow.webp" data-caption="End-to-end workflow">
-              <img src="assets/images/customer/end-to-end-workflow.webp" alt="End-to-end workflow" loading="lazy" />
-              <span>End-to-end workflow</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/system-architecture.webp" data-caption="System architecture">
-              <img src="assets/images/customer/system-architecture.webp" alt="System architecture" loading="lazy" />
-              <span>System architecture</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/executive-dashboard.webp" data-caption="Executive dashboard">
-              <img src="assets/images/customer/executive-dashboard.webp" alt="Executive dashboard" loading="lazy" />
-              <span>Executive dashboard</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/company-risk-score.webp" data-caption="Company risk score">
-              <img src="assets/images/customer/company-risk-score.webp" alt="Company risk score" loading="lazy" />
-              <span>Company risk score</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/forecasting-validation.webp" data-caption="Forecasting validation">
-              <img src="assets/images/customer/forecasting-validation.webp" alt="Forecasting validation" loading="lazy" />
-              <span>Forecasting validation</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/driver-analysis-treemap.webp" data-caption="Driver analysis treemap">
-              <img src="assets/images/customer/driver-analysis-treemap.webp" alt="Driver analysis treemap" loading="lazy" />
-              <span>Driver analysis treemap</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/growth-analysis.webp" data-caption="Growth analysis">
-              <img src="assets/images/customer/growth-analysis.webp" alt="Growth analysis" loading="lazy" />
-              <span>Growth analysis</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/customer/issue-intelligence.webp" data-caption="Issue intelligence">
-              <img src="assets/images/customer/issue-intelligence.webp" alt="Issue intelligence" loading="lazy" />
-              <span>Issue intelligence</span>
-            </button>
-        </div>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Additional Proof</h3>
-        <div class="proof-strip">
-          <button class="proof-thumb" type="button" data-full="assets/images/customer/product-intelligence.webp" data-caption="Product intelligence">
-              <img src="assets/images/customer/product-intelligence.webp" alt="Product intelligence" loading="lazy" />
-              <span>Product intelligence</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/nlp-complaint-prediction.webp" data-caption="NLP complaint prediction">
-              <img src="assets/images/customer/nlp-complaint-prediction.webp" alt="NLP complaint prediction" loading="lazy" />
-              <span>NLP complaint prediction</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/recommendation-engine.webp" data-caption="Recommendation engine">
-              <img src="assets/images/customer/recommendation-engine.webp" alt="Recommendation engine" loading="lazy" />
-              <span>Recommendation engine</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/model-performance-summary.webp" data-caption="Model performance summary">
-              <img src="assets/images/customer/model-performance-summary.webp" alt="Model performance summary" loading="lazy" />
-              <span>Model performance summary</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/docker-hub-repository.webp" data-caption="Docker Hub repository">
-              <img src="assets/images/customer/docker-hub-repository.webp" alt="Docker Hub repository" loading="lazy" />
-              <span>Docker Hub repository</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/docker-run-success.webp" data-caption="Docker run success">
-              <img src="assets/images/customer/docker-run-success.webp" alt="Docker run success" loading="lazy" />
-              <span>Docker run success</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/github-actions-success.webp" data-caption="GitHub Actions success">
-              <img src="assets/images/customer/github-actions-success.webp" alt="GitHub Actions success" loading="lazy" />
-              <span>GitHub Actions success</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/customer/pytest-success.webp" data-caption="Pytest success">
-              <img src="assets/images/customer/pytest-success.webp" alt="Pytest success" loading="lazy" />
-              <span>Pytest success</span>
-            </button>
-        </div>
-      </div>
-    </section>
-<section class="case-study section-block" id="enterprise-rag">
-      <div class="case-head reveal">
-        <p class="badge">Hybrid RAG + Analytics Engine + Feedback Loop</p>
-        <h2>Enterprise RAG Assistant</h2>
-        <p>A multi-format document assistant that supports PDF, CSV, TXT, JSON, XLS/XLSX, and DOCX files. It combines hybrid retrieval, a schema-aware analytics engine, source attribution, fallback behavior, FastAPI, Streamlit, Supabase feedback, Docker, and GitHub Actions.</p>
-      </div>
-
-      <div class="case-grid">
-        <article class="case-panel reveal">
-          <h3>Problem</h3>
-          <p>Typical document chatbots struggle with structured tables, hallucination control, and feedback capture. The goal was to build an assistant that can answer semantic document questions and deterministic analytics queries with visible sources.</p>
-        </article>
-        <article class="case-panel reveal delay-1">
-          <h3>Engineering Challenge</h3>
-          <p>The hardest part was routing questions correctly. Analytics queries should not rely on LLM reasoning when deterministic Pandas operations are possible, while semantic questions need retrieval, reranking, and source-grounded generation.</p>
-        </article>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Approach</h3>
-        <ul>
-          <li>Built multi-format ingestion for documents and tables.</li><li>Implemented a hybrid query router to separate structured analytics questions from semantic RAG questions.</li><li>Used vector retrieval, BM25, query expansion, reranking, and source attribution for document Q&A.</li><li>Added feedback capture and analytics through Supabase plus API/UI/Docker/CI proof.</li>
-        </ul>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <div class="split-title">
-          <div>
-            <h3>Proof Gallery</h3>
-            <p>Click any image to view it larger.</p>
-          </div>
-          <div class="case-links"><a href="https://github.com/shivamrajput-ds/enterprise-rag-assistant" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/Rvdz9DKtz5o?si=zK7lmp8zjTQTrQru" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/enterprise-rag-assistant" target="_blank" rel="noopener">Docker Hub</a></div>
-        </div>
-        <div class="gallery-grid">
-          <button class="shot" type="button" data-full="assets/images/rag/enterprise-rag-architecture.webp" data-caption="Enterprise RAG architecture">
-              <img src="assets/images/rag/enterprise-rag-architecture.webp" alt="Enterprise RAG architecture" loading="lazy" />
-              <span>Enterprise RAG architecture</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/system-workflow.webp" data-caption="System workflow">
-              <img src="assets/images/rag/system-workflow.webp" alt="System workflow" loading="lazy" />
-              <span>System workflow</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/hybrid-query-router.webp" data-caption="Hybrid query router">
-              <img src="assets/images/rag/hybrid-query-router.webp" alt="Hybrid query router" loading="lazy" />
-              <span>Hybrid query router</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/tabular-analytics-engine.webp" data-caption="Tabular analytics engine">
-              <img src="assets/images/rag/tabular-analytics-engine.webp" alt="Tabular analytics engine" loading="lazy" />
-              <span>Tabular analytics engine</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/source-grounded-chat.webp" data-caption="Source-grounded chat">
-              <img src="assets/images/rag/source-grounded-chat.webp" alt="Source-grounded chat" loading="lazy" />
-              <span>Source-grounded chat</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/structured-analytics-query.webp" data-caption="Structured analytics query">
-              <img src="assets/images/rag/structured-analytics-query.webp" alt="Structured analytics query" loading="lazy" />
-              <span>Structured analytics query</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/multi-document-reasoning.webp" data-caption="Multi-document reasoning">
-              <img src="assets/images/rag/multi-document-reasoning.webp" alt="Multi-document reasoning" loading="lazy" />
-              <span>Multi-document reasoning</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/rag/hallucination-safe-fallback.webp" data-caption="Hallucination-safe fallback">
-              <img src="assets/images/rag/hallucination-safe-fallback.webp" alt="Hallucination-safe fallback" loading="lazy" />
-              <span>Hallucination-safe fallback</span>
-            </button>
-        </div>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Additional Proof</h3>
-        <div class="proof-strip">
-          <button class="proof-thumb" type="button" data-full="assets/images/rag/fastapi-endpoint-proof.webp" data-caption="FastAPI endpoint proof">
-              <img src="assets/images/rag/fastapi-endpoint-proof.webp" alt="FastAPI endpoint proof" loading="lazy" />
-              <span>FastAPI endpoint proof</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/rag/feedback-analytics-dashboard.webp" data-caption="Feedback analytics dashboard">
-              <img src="assets/images/rag/feedback-analytics-dashboard.webp" alt="Feedback analytics dashboard" loading="lazy" />
-              <span>Feedback analytics dashboard</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/rag/supabase-feedback-table.webp" data-caption="Supabase feedback table">
-              <img src="assets/images/rag/supabase-feedback-table.webp" alt="Supabase feedback table" loading="lazy" />
-              <span>Supabase feedback table</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/rag/github-actions-ci.webp" data-caption="GitHub Actions CI">
-              <img src="assets/images/rag/github-actions-ci.webp" alt="GitHub Actions CI" loading="lazy" />
-              <span>GitHub Actions CI</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/rag/docker-deployment.webp" data-caption="Docker deployment">
-              <img src="assets/images/rag/docker-deployment.webp" alt="Docker deployment" loading="lazy" />
-              <span>Docker deployment</span>
-            </button>
-<button class="proof-thumb" type="button" data-full="assets/images/rag/rag-evaluation-output.webp" data-caption="RAG evaluation output">
-              <img src="assets/images/rag/rag-evaluation-output.webp" alt="RAG evaluation output" loading="lazy" />
-              <span>RAG evaluation output</span>
-            </button>
-        </div>
-      </div>
-    </section>
-<section class="case-study section-block" id="fake-job-detector">
-      <div class="case-head reveal">
-        <p class="badge">NLP Classification + FastAPI + MLflow</p>
-        <h2>Fake Job Posting Detector</h2>
-        <p>An end-to-end fraud detection project using TF-IDF, Logistic Regression, model comparison, MLflow tracking, FastAPI, Streamlit, Docker, explainability, tests, and CI proof.</p>
-      </div>
-
-      <div class="case-grid">
-        <article class="case-panel reveal">
-          <h3>Problem</h3>
-          <p>Fake job posts can harm applicants and waste time. The goal was to build an explainable fraud detection system that predicts whether a job posting is genuine or potentially fraudulent using text and structured fields.</p>
-        </article>
-        <article class="case-panel reveal delay-1">
-          <h3>Engineering Challenge</h3>
-          <p>The dataset is imbalanced, so accuracy alone was not enough. Fraud precision, fraud recall, fraud F1, ROC-AUC, and interpretability were more important for choosing the final model.</p>
-        </article>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Approach</h3>
-        <ul>
-          <li>Explored the dataset and fraud patterns across job fields.</li><li>Built a combined text feature and trained TF-IDF based classification models.</li><li>Compared Logistic Regression, LinearSVC, and Naive Bayes using fraud-focused metrics.</li><li>Served the selected model through FastAPI and Streamlit with explainability, MLflow, Docker, tests, and CI proof.</li>
-        </ul>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <div class="split-title">
-          <div>
-            <h3>Proof Gallery</h3>
-            <p>Click any image to view it larger.</p>
-          </div>
-          <div class="case-links"><a href="https://github.com/shivamrajput-ds/fake-job-posting-detector" target="_blank" rel="noopener">GitHub</a>
-<a href="https://youtu.be/8XKoZl_qvmU?si=Fh2OOtMa_RO7EoGj" target="_blank" rel="noopener">YouTube Demo</a>
-<a href="https://hub.docker.com/repository/docker/shivamrajput130/fake-job-posting-detector" target="_blank" rel="noopener">Docker Hub</a></div>
-        </div>
-        <div class="gallery-grid">
-          <button class="shot" type="button" data-full="assets/images/fakejob/ml-system-architecture.webp" data-caption="ML system architecture">
-              <img src="assets/images/fakejob/ml-system-architecture.webp" alt="ML system architecture" loading="lazy" />
-              <span>ML system architecture</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/fastapi-docs.webp" data-caption="FastAPI docs">
-              <img src="assets/images/fakejob/fastapi-docs.webp" alt="FastAPI docs" loading="lazy" />
-              <span>FastAPI docs</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/fastapi-prediction-response.webp" data-caption="FastAPI prediction response">
-              <img src="assets/images/fakejob/fastapi-prediction-response.webp" alt="FastAPI prediction response" loading="lazy" />
-              <span>FastAPI prediction response</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/github-actions-ci.webp" data-caption="GitHub Actions CI">
-              <img src="assets/images/fakejob/github-actions-ci.webp" alt="GitHub Actions CI" loading="lazy" />
-              <span>GitHub Actions CI</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/local-prediction-explanation.webp" data-caption="Local prediction explanation">
-              <img src="assets/images/fakejob/local-prediction-explanation.webp" alt="Local prediction explanation" loading="lazy" />
-              <span>Local prediction explanation</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/mlflow-experiments.webp" data-caption="MLflow experiments">
-              <img src="assets/images/fakejob/mlflow-experiments.webp" alt="MLflow experiments" loading="lazy" />
-              <span>MLflow experiments</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/model-performance.webp" data-caption="Model performance">
-              <img src="assets/images/fakejob/model-performance.webp" alt="Model performance" loading="lazy" />
-              <span>Model performance</span>
-            </button>
-<button class="shot" type="button" data-full="assets/images/fakejob/streamlit-prediction-ui.webp" data-caption="Streamlit prediction UI">
-              <img src="assets/images/fakejob/streamlit-prediction-ui.webp" alt="Streamlit prediction UI" loading="lazy" />
-              <span>Streamlit prediction UI</span>
-            </button>
-        </div>
-      </div>
-
-      <div class="case-panel wide reveal">
-        <h3>Additional Proof</h3>
-        <div class="proof-strip">
-          <button class="proof-thumb" type="button" data-full="assets/images/fakejob/tests-passed.webp" data-caption="Tests passed">
-              <img src="assets/images/fakejob/tests-passed.webp" alt="Tests passed" loading="lazy" />
-              <span>Tests passed</span>
-            </button>
-        </div>
-      </div>
-    </section>
-    </div>
-
-    <section class="container section-block" id="skills">
-      <div class="section-heading reveal">
-        <p class="badge">Skills</p>
-        <h2>Skills mapped to projects I can explain in interviews.</h2>
-      </div>
-      <div class="skills-grid">
-        <article class="skill-card reveal"><h3>Programming & Data</h3><p>Python, SQL, Pandas, NumPy, PyArrow, Parquet, OOP, data cleaning, EDA, and memory-safe processing.</p></article>
-        <article class="skill-card reveal delay-1"><h3>Machine Learning</h3><p>scikit-learn, Logistic Regression, Naive Bayes, LinearSVC, Random Forest, Gradient Boosting, evaluation, validation, and model selection.</p></article>
-        <article class="skill-card reveal delay-2"><h3>NLP & GenAI/RAG</h3><p>Text preprocessing, TF-IDF, n-grams, classification, embeddings, vector search, BM25, hybrid retrieval, reranking, prompt design, and source grounding.</p></article>
-        <article class="skill-card reveal"><h3>Apps & MLOps</h3><p>FastAPI, REST APIs, Streamlit, Docker, Docker Hub, MLflow, Git, GitHub, tests, CI/CD basics, Supabase, and ChromaDB.</p></article>
-      </div>
-    </section>
-
-    <section class="container section-block" id="contact">
-      <div class="contact-card reveal">
-        <p class="badge">Contact</p>
-        <h2>Let’s discuss Data Science / ML / NLP / GenAI internship opportunities.</h2>
-        <p>The form opens your email app with a pre-filled message. This keeps the portfolio static, fast, and GitHub Pages friendly.</p>
-        <form class="contact-form" id="contactForm">
-          <div class="form-row">
-            <label>Name<input type="text" id="nameInput" placeholder="Your name or company" /></label>
-            <label>Subject<input type="text" id="subjectInput" value="Internship Opportunity - Shivam Rajput" /></label>
-          </div>
-          <label>Message<textarea id="messageInput" rows="5" placeholder="Hi Shivam, I saw your portfolio and wanted to discuss..."></textarea></label>
-          <div class="contact-actions">
-            <button class="btn primary" type="submit">Open Email App</button>
-            <button class="btn secondary" type="button" id="copyEmailContact">Copy Email</button>
-            <a class="btn secondary" href="mailto:shivamrajput.datascientist@gmail.com?subject=Internship%20Opportunity%20-%20Shivam%20Rajput">Email Directly</a>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <div class="lightbox" id="lightbox" aria-hidden="true">
-    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image">×</button>
-    <img id="lightboxImage" alt="" />
-    <p id="lightboxCaption"></p>
-  </div>
-
-  <div class="toast" id="toast" role="status" aria-live="polite">Email copied</div>
-
-  <footer class="footer">
-    <p>© <span id="year"></span> Shivam Rajput. Built for Data Science, ML, NLP, and GenAI/RAG internship opportunities.</p>
-    <a href="#home">Back to top</a>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+<div aria-hidden="true" class="ambient-world"><div aria-hidden="true" class="ambient-glow"></div><div aria-hidden="true" class="ambient-grid"></div><div aria-hidden="true" class="ambient-vignette"></div></div>
+<a class="skip-link" href="#main">Skip to content</a>
+<div aria-hidden="true" class="scroll-progress"><span id="scroll-progress-bar"></span></div>
+<header class="site-header" id="top">
+<nav aria-label="Primary navigation" class="nav shell">
+<a aria-label="Shivam Rajput home" class="brand" href="#top">
+<span aria-hidden="true" class="brand-mark">SR</span>
+<span><strong>Shivam Rajput</strong><small>Junior Data Scientist</small></span>
+</a>
+<button aria-controls="nav-links" aria-expanded="false" aria-label="Open navigation" class="nav-toggle" type="button"><span></span><span></span></button>
+<div class="nav-links" id="nav-links">
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+<a aria-label="Resume (opens in a new tab)" class="nav-resume" href="assets/resume/resume.pdf" rel="noopener" target="_blank">Resume <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a><button aria-label="Switch 3D performance mode" aria-pressed="false" class="performance-toggle" id="performance-toggle" title="Switch between full and eco 3D rendering" type="button">Performance: Full</button>
+</div>
+</nav>
+</header>
+<main id="main">
+<section aria-labelledby="hero-title" class="hero shell">
+<div class="hero-copy reveal">
+<div class="availability"><i aria-hidden="true"></i> Open to Data Science and Applied ML internships</div>
+<p class="eyebrow">JUNIOR DATA SCIENTIST · APPLIED ML · AI SYSTEMS</p>
+<h1 id="hero-title">I turn large, messy datasets into <span>tested decisions.</span></h1>
+<p class="hero-lead">I build large-scale analytics, statistical experiments, human-reviewed ML workflows and grounded retrieval systems - with measurable evaluation, public code and deployable interfaces.</p>
+<div class="hero-actions"><a class="button button-primary" href="#projects">View projects</a><a aria-label="Open ATS resume in a new tab" class="button button-secondary" href="assets/resume/resume.pdf" rel="noopener" target="_blank">Resume</a><button aria-label="Load and explore the interactive 3D project stories" class="hero-3d-link" id="guided-tour" type="button">Explore optional 3D stories</button></div>
+<div aria-label="Portfolio proof" class="hero-proof"><div><strong>15.95M</strong><span>complaint records processed</span></div><div><strong>+0.769 pp</strong><span>observed A/B conversion uplift</span></div><div><strong>Human gate</strong><span>deterministic-first ML auditing</span></div><div><strong>0.947</strong><span>29-case strict hybrid RAGAS composite</span></div></div>
+</div>
+<div class="hero-stage reveal" data-delay="120">
+<div class="stage-shell stage-hero">
+<div class="stage-head"><span>OPTIONAL 3D SYSTEM MAP</span><i>LOAD ON REQUEST</i></div>
+<picture class="stage-poster"><img alt="Three project systems shown as a static fallback" decoding="async" height="760" src="assets/images/poster-hero.webp" width="1200"/></picture><span class="stage-loading">Loading 3D engine…</span><canvas aria-describedby="hero-3d-help" aria-label="Interactive 3D neural decision system" id="hero-3d" role="img" tabindex="0"></canvas><p class="sr-only" id="hero-3d-help">Use left and right arrow keys to rotate the 3D scene, up and down arrows to tilt it, and Home to reset the view.</p>
+<div aria-hidden="true" class="stage-fallback"><span></span><span></span><span></span></div>
+<div aria-labelledby="hero-tab-complaints" class="hero-stage-copy" id="hero-scene-panel" role="tabpanel">
+<span id="hero-scene-kicker">SYSTEM 01 · LARGE-SCALE DATA SCIENCE</span>
+<strong id="hero-scene-title">Turn 15.95M raw complaints into decision-ready evidence.</strong>
+<p id="hero-scene-copy">Chunked processing, Parquet, risk analysis, NLP and holdout forecasting converge into an executive decision layer.</p>
+</div>
+<div aria-label="Choose a 3D project system" aria-orientation="horizontal" class="scene-switcher" role="tablist">
+<button aria-controls="hero-scene-panel" aria-selected="true" class="active" data-hero-scene="complaints" id="hero-tab-complaints" role="tab" tabindex="0" type="button"><b>01</b><span>Data Science</span></button><button aria-controls="hero-scene-panel" aria-selected="false" class="" data-hero-scene="audit" id="hero-tab-audit" role="tab" tabindex="-1" type="button"><b>02</b><span>ML Reliability</span></button><button aria-controls="hero-scene-panel" aria-selected="false" class="" data-hero-scene="rag" id="hero-tab-rag" role="tab" tabindex="-1" type="button"><b>03</b><span>Hybrid RAG</span></button></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="projects-title" class="projects" id="projects">
+<header class="section-header shell reveal">
+<p class="eyebrow">Three flagship systems show Data Science, ML reliability and retrieval engineering; one focused case study shows statistical decision-making.</p>
+<h2 id="projects-title">Four projects. <span>One evidence-first profile.</span></h2>
+<p>Three flagship systems show scale, ML reliability and retrieval engineering; one focused experiment shows statistical decision-making.</p>
+</header>
+<article aria-label="Data Science case study" class="project-world world-complaints" data-expanded="false" id="complaints-project">
+<div aria-hidden="true" class="world-glow"></div>
+<div class="project-grid shell reverse">
+<div class="project-copy reveal">
+<div class="project-index">01 / LARGE-SCALE DATA SCIENCE</div>
+<h3>Customer Complaint Intelligence Platform</h3>
+<div aria-label="Project problem, key decision and outcome" class="project-outcome"><div><span>Problem</span><strong>an 8-9 GB complaint file is too large and too messy for dashboard-time analysis.</strong></div><div><span>System decision</span><strong>chunked processing, Parquet summaries and separate NLP training.</strong></div><div><span>What it enables</span><strong>decision-ready analytics with 3.57% six-month holdout MAPE.</strong></div></div><p class="project-summary">A large-scale Data Science platform that converts an 8-9 GB CFPB complaint file into reusable Parquet analytics, company risk signals, NLP routing, validated forecasts and executive recommendations.</p>
+<div class="metric-row">
+<div><strong>15.95M</strong><span>complaints</span></div>
+<div><strong>3.57%</strong><span>forecast MAPE</span></div>
+<div><strong>14</strong><span>core tests passing</span></div>
+</div>
+<div class="stack"><span>Python</span><span>Pandas / PyArrow</span><span>Prophet</span><span>scikit-learn</span><span>Streamlit</span></div>
+<details class="project-details"><summary>Engineering decisions, role and limitations</summary><dl class="project-facts">
+<div><dt>My role</dt><dd>Built the preprocessing pipeline, Parquet outputs, analytics modules, risk logic, forecasting, NLP models and Streamlit dashboard.</dd></div>
+<div><dt>Key decision</dt><dd>Pre-aggregate expensive analysis and read Parquet summaries at runtime instead of loading the 8-9 GB CSV in the app.</dd></div>
+<div><dt>Hardest problem</dt><dd>Balancing scale, business actionability and honest interpretation of raw complaint volume.</dd></div>
+<div><dt>Boundary</dt><dd>Complaint volume is not normalized by customer base; narrative coverage is 23.84%; product and issue classifiers are documented at 75.28% and 62.39% accuracy rather than overstated.</dd></div>
+</dl></details><div class="project-actions">
+<a aria-label="GitHub (opens in a new tab)" class="button project-button" href="https://github.com/shivamrajput-ds/customer-complaint-intelligence" rel="noopener" target="_blank">GitHub <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Video walkthrough (opens in a new tab)" class="button project-button" href="https://youtu.be/ZrXg5p7wbqM" rel="noopener" target="_blank">Video <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Docker image (opens in a new tab)" class="text-link" href="https://hub.docker.com/repository/docker/shivamrajput130/customer-complaint-intelligence" rel="noopener" target="_blank">Docker image <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="View complaint evaluation methodology (opens in a new tab)" class="text-link" href="https://github.com/shivamrajput-ds/customer-complaint-intelligence/blob/main/docs/evaluation.md" rel="noopener" target="_blank">Evaluation methodology <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a></div><button aria-expanded="false" class="case-study-toggle" data-case-toggle="complaints-project" type="button">Explore full analytics story</button>
+</div>
+<div class="project-stage reveal" data-delay="100">
+<div class="stage-shell stage-complaints story-stage" data-story="complaints">
+<div class="stage-head"><span>INTERACTIVE 3D · DATA SCIENCE STORY</span><i id="complaints-status">RAW CSV ONLINE</i></div><div class="stage-viewport"><picture class="stage-poster"><img alt="Customer Complaint Intelligence pipeline poster" decoding="async" height="760" src="assets/images/poster-complaints.webp" width="1200"/></picture><span class="stage-loading">Preparing 3D scene…</span><canvas aria-describedby="complaints-3d-help" aria-label="Self-running 3D explanation of the complaint intelligence pipeline" id="complaints-3d" role="img" tabindex="0"></canvas><p class="sr-only" id="complaints-3d-help">Use left and right arrow keys to rotate the 3D scene, up and down arrows to tilt it, and Home to reset the view.</p><div aria-hidden="true" class="stage-fallback"><strong>Interactive 3D explanation unavailable.</strong><span>The written case study remains fully accessible.</span></div><div aria-hidden="true" class="story-hud">
+<div><span>ROWS</span><strong id="complaints-hud-rows">0 / 15.95M</strong></div>
+<div><span>FORMAT</span><strong id="complaints-hud-format">Raw CSV</strong></div>
+<div><span>DECISION LAYER</span><strong id="complaints-hud-output">Waiting</strong></div>
+</div></div>
+<div class="story-toolbar">
+<button aria-label="Play or pause complaint story" class="story-play" data-story-play="complaints" type="button">Pause</button>
+<button class="story-restart" data-story-restart="complaints" type="button">Restart</button>
+<button aria-label="Previous chapter" class="story-prev" data-story-prev="complaints" type="button">Previous</button><div aria-label="Complaint story progress" class="story-progress"><span id="complaints-progress"></span></div><button aria-label="Next chapter" class="story-next" data-story-next="complaints" type="button">Next</button>
+<output id="complaints-time">00:00 / 00:56</output>
+</div>
+<span aria-hidden="true" class="chapter-hint">Swipe chapters →</span><div aria-label="Complaint story chapters" class="scene-controls story-chapters">
+<button class="active" data-complaints-phase="raw" type="button">1. Raw source</button>
+<button data-complaints-phase="chunks" type="button">2. Chunk stream</button>
+<button data-complaints-phase="validate" type="button">3. Validate</button>
+<button data-complaints-phase="parquet" type="button">4. Parquet</button>
+<button data-complaints-phase="analytics" type="button">5. Analytics</button>
+<button data-complaints-phase="intelligence" type="button">6. Risk + NLP</button>
+<button data-complaints-phase="forecast" type="button">7. Forecast</button>
+<button data-complaints-phase="decisions" type="button">8. Decisions</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="scene-caption story-caption" id="complaints-caption" role="status">
+<div><strong>8–9 GB raw complaint source</strong><span>The pipeline starts with a file too large to load casually inside an interactive dashboard.</span></div>
+<p><b>Why it matters:</b> <span id="complaints-why">Scale is an engineering constraint, so the animation begins with the memory problem.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="evidence-heading shell"><span>REPOSITORY EVIDENCE</span><p>Selected current repository assets - shown at natural aspect ratio and available full size.</p></div><div aria-label="Complaint Intelligence screenshots" class="evidence-gallery shell reveal evidence-gallery--4"><figure class="evidence-item evidence-item--primary"><button aria-label="Open full-size image: Executive dashboard" data-caption="Executive dashboard" data-lightbox="assets/images/complaints-dashboard.webp" type="button"><img alt="Customer Complaint Intelligence executive dashboard" decoding="async" height="862" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/complaints-dashboard.webp" width="1918"/></button><figcaption><span>Executive dashboard</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: System architecture" data-caption="System architecture" data-lightbox="assets/images/complaints-architecture.webp" type="button"><img alt="Customer Complaint Intelligence system architecture" decoding="async" height="768" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/complaints-architecture.webp" width="1408"/></button><figcaption><span>System architecture</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: Six-month forecasting" data-caption="Six-month forecasting" data-lightbox="assets/images/complaints-forecasting.webp" type="button"><img alt="Customer complaint forecasting module with holdout validation" decoding="async" height="852" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/complaints-forecasting.webp" width="1918"/></button><figcaption><span>Six-month forecasting</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: NLP complaint intelligence" data-caption="NLP complaint intelligence" data-lightbox="assets/images/complaints-nlp.webp" type="button"><img alt="Complaint NLP product, issue and topic prediction interface" decoding="async" height="865" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/complaints-nlp.webp" width="1918"/></button><figcaption><span>NLP complaint intelligence</span><small>Open full size</small></figcaption></figure></div>
+</article><section aria-labelledby="marketing-title" class="experiment-case" id="marketing-project">
+<div class="shell experiment-grid">
+<div class="experiment-copy reveal">
+<div class="project-index">02 / STATISTICAL EXPERIMENTATION</div>
+<p class="eyebrow">FOCUSED DATA SCIENCE CASE STUDY</p>
+<h3 id="marketing-title">Marketing A/B Testing and Statistical Experiment Analysis</h3>
+<p class="experiment-question">Did the advertisement group genuinely achieve a higher conversion rate than the PSA control?</p>
+<p class="project-summary">An end-to-end statistical experiment analysis across 588,101 users, separating observed uplift, statistical reliability, effect size and business rollout requirements.</p>
+<div aria-label="A/B testing results" class="experiment-metrics"><div><strong>588,101</strong><span>users analysed</span></div><div><strong>+0.769 pp</strong><span>absolute uplift</span></div><div><strong>95% CI</strong><span>+0.595 to +0.943 pp</span></div><div><strong>~130</strong><span>users per additional conversion</span></div></div>
+<div class="experiment-decision">
+<span>Decision</span>
+<strong>Positive statistical evidence; recommend a controlled, cost-aware rollout or follow-up experiment.</strong>
+<p>The two-sided p-value was 1.705 × 10⁻¹³, but the decision is framed around effect size, uncertainty and business economics. Causal interpretation still depends on valid assignment and logging.</p>
+</div>
+<div class="stack"><span>Python</span><span>Pandas</span><span>SciPy</span><span>Statsmodels</span><span>Matplotlib</span></div>
+<div class="project-actions">
+<a aria-label="Marketing A/B Testing GitHub repository (opens in a new tab)" class="button project-button" href="https://github.com/shivamrajput-ds/marketing-ab-testing-analysis" rel="noopener" target="_blank">GitHub ↗</a>
+<a aria-label="Experiment report (opens in a new tab)" class="text-link" href="https://github.com/shivamrajput-ds/marketing-ab-testing-analysis/blob/main/docs/EXPERIMENT_REPORT.md" rel="noopener" target="_blank">Experiment report ↗</a>
+</div>
+</div>
+<div class="experiment-visuals reveal" data-delay="80">
+<figure class="experiment-figure experiment-figure--primary">
+<button aria-label="Open full-size image: conversion rate by experiment group" data-caption="Conversion rate by experiment group" data-lightbox="assets/images/ab-conversion.webp" type="button">
+<img alt="Conversion rate comparison between PSA and advertisement experiment groups" decoding="async" height="880" loading="lazy" src="assets/images/ab-conversion.webp" width="1421"/>
+</button>
+<figcaption><span>Observed conversion lift</span><small>PSA 1.785% → Ad 2.555%</small></figcaption>
+</figure>
+<figure class="experiment-figure">
+<button aria-label="Open full-size image: simulated uplift distribution" data-caption="Simulated uplift distribution" data-lightbox="assets/images/ab-uplift.webp" type="button">
+<img alt="Simulated distribution of advertisement conversion uplift" decoding="async" height="880" loading="lazy" src="assets/images/ab-uplift.webp" width="1600"/>
+</button>
+<figcaption><span>Uncertainty check</span><small>Simulated uplift remains well above zero</small></figcaption>
+</figure>
+</div>
+</div>
+</section><article aria-label="ML reliability case study" class="project-world world-audit" data-expanded="false" id="agentic-project">
+<div aria-hidden="true" class="world-glow"></div>
+<div class="project-grid shell">
+<div class="project-copy reveal">
+<div class="project-index">03 / ML RELIABILITY &amp; HUMAN REVIEW</div>
+<h3>Agentic ML Audit Copilot</h3>
+<div aria-label="Project problem, key decision and outcome" class="project-outcome"><div><span>Problem</span><strong>risky datasets can make weak models look trustworthy.</strong></div><div><span>System decision</span><strong>deterministic audits pause at a human review gate.</strong></div><div><span>What it enables</span><strong>automated pytest coverage, baseline evidence, MLflow and SHAP reporting.</strong></div></div><p class="project-summary">A deterministic-first pre-training audit system that surfaces data-quality, leakage and imbalance risks, pauses risky workflows for human review, then records baseline, MLflow and explainability evidence.</p>
+<div class="metric-row"><div><strong>HITL</strong><span>decision gate</span></div><div><strong>Deterministic</strong><span>risk checks</span></div><div><strong>pytest</strong><span>automated coverage</span></div></div>
+<div class="stack"><span>Python</span><span>scikit-learn</span><span>LangGraph</span><span>MLflow / SHAP</span><span>FastAPI</span></div>
+<details class="project-details"><summary>Engineering decisions, role and limitations</summary><dl class="project-facts">
+<div><dt>My role</dt><dd>Designed the workflow, audit modules, risk routing, API, Streamlit interface, MLflow tracking and report flow.</dd></div>
+<div><dt>Key decision</dt><dd>Python remains the judge; the LLM is limited to explanation, report writing and audit Q&amp;A.</dd></div>
+<div><dt>Hardest problem</dt><dd>Making leakage, imbalance and data-quality findings visible without pretending the system is AutoML.</dd></div>
+<div><dt>Boundary</dt><dd>Single-machine tabular classification/regression review, not enterprise governance or automated model selection.</dd></div>
+</dl></details><div class="project-actions">
+<a aria-label="GitHub (opens in a new tab)" class="button project-button" href="https://github.com/shivamrajput-ds/Agentic-ML-Audit-Copilot" rel="noopener" target="_blank">GitHub <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Live app (opens in a new tab)" class="button project-button" href="https://shivamrajput-ds-agentic-ml-audit-copilo-appstreamlit-app-joxap5.streamlit.app/" rel="noopener" target="_blank">Live app <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Watch walkthrough (opens in a new tab)" class="text-link" href="https://youtu.be/kFzNam74QBc" rel="noopener" target="_blank">Watch walkthrough <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Docker image (opens in a new tab)" class="text-link" href="https://hub.docker.com/r/shivamrajput130/agentic-ml-audit-copilot" rel="noopener" target="_blank">Docker image ↗</a></div><button aria-expanded="false" class="case-study-toggle" data-case-toggle="agentic-project" type="button">Explore full audit story</button>
+</div>
+<div class="project-stage reveal" data-delay="100">
+<div class="stage-shell stage-audit story-stage" data-story="audit">
+<div class="stage-head"><span>INTERACTIVE 3D · ML RELIABILITY STORY</span><i id="audit-status">DATASET ARRIVING</i></div><div class="stage-viewport"><picture class="stage-poster"><img alt="Agentic ML Audit Copilot workflow poster" decoding="async" height="760" src="assets/images/poster-audit.webp" width="1200"/></picture><span class="stage-loading">Preparing 3D scene…</span><canvas aria-describedby="audit-3d-help" aria-label="Self-running 3D explanation of the ML audit workflow" id="audit-3d" role="img" tabindex="0"></canvas><p class="sr-only" id="audit-3d-help">Use left and right arrow keys to rotate the 3D scene, up and down arrows to tilt it, and Home to reset the view.</p><div aria-hidden="true" class="stage-fallback"><strong>Interactive 3D explanation unavailable.</strong><span>The written case study remains fully accessible.</span></div><div aria-hidden="true" class="story-hud">
+<div><span>INPUT</span><strong id="audit-hud-input">CSV + target</strong></div>
+<div><span>DECISION</span><strong id="audit-hud-decision">Not evaluated</strong></div>
+<div><span>OUTPUT</span><strong id="audit-hud-output">Audit pending</strong></div>
+</div><div class="scene-legend audit-legend">
+<span><i class="c-cyan"></i> deterministic checks</span>
+<span><i class="c-red"></i> risk stops workflow</span>
+<span><i class="c-green"></i> human-approved path</span>
+</div></div>
+<div class="story-toolbar">
+<button aria-label="Play or pause audit story" class="story-play" data-story-play="audit" type="button">Pause</button>
+<button class="story-restart" data-story-restart="audit" type="button">Restart</button>
+<button aria-label="Previous chapter" class="story-prev" data-story-prev="audit" type="button">Previous</button><div aria-label="Audit story progress" class="story-progress"><span id="audit-progress"></span></div><button aria-label="Next chapter" class="story-next" data-story-next="audit" type="button">Next</button>
+<output id="audit-time">00:00 / 00:52</output>
+</div>
+<span aria-hidden="true" class="chapter-hint">Swipe chapters →</span><div aria-label="Audit story chapters" class="scene-controls story-chapters">
+<button class="active" data-audit-phase="upload" type="button">1. Upload</button>
+<button data-audit-phase="detect" type="button">2. Detect problem</button>
+<button data-audit-phase="audit" type="button">3. Parallel audits</button>
+<button data-audit-phase="risk" type="button">4. Block risk</button>
+<button data-audit-phase="review" type="button">5. Human gate</button>
+<button data-audit-phase="models" type="button">6. Baselines</button>
+<button data-audit-phase="explain" type="button">7. SHAP + MLflow</button>
+<button data-audit-phase="report" type="button">8. Report</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="scene-caption story-caption" id="audit-caption" role="status">
+<div><strong>Dataset enters the audit</strong><span>A CSV and target column are loaded, profiled and converted into a visible matrix before any model is allowed to train.</span></div>
+<p><b>Why it matters:</b> <span id="audit-why">The workflow starts with evidence about the dataset—not assumptions about the model.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="evidence-heading shell"><span>REPOSITORY EVIDENCE</span><p>Selected current repository assets - shown at natural aspect ratio and available full size.</p></div><div aria-label="Agentic ML Audit screenshots" class="evidence-gallery shell reveal evidence-gallery--3"><figure class="evidence-item evidence-item--primary"><button aria-label="Open full-size image: Human review gate" data-caption="Human review gate" data-lightbox="assets/images/audit-review.webp" type="button"><img alt="Agentic ML Audit human review gate" decoding="async" height="955" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/audit-review.webp" width="1915"/></button><figcaption><span>Human review gate</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: Executive audit dashboard" data-caption="Executive audit dashboard" data-lightbox="assets/images/audit-dashboard.webp" type="button"><img alt="Agentic ML Audit executive dashboard" decoding="async" height="976" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/audit-dashboard.webp" width="1908"/></button><figcaption><span>Executive audit dashboard</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: Human-in-the-loop API workflow" data-caption="Human-in-the-loop API workflow" data-lightbox="assets/images/audit-architecture.webp" type="button"><img alt="Agentic ML Audit API and human-in-the-loop workflow architecture" decoding="async" height="941" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/audit-architecture.webp" width="1672"/></button><figcaption><span>Human-in-the-loop API workflow</span><small>Open full size</small></figcaption></figure></div>
+</article><article aria-label="Applied AI case study" class="project-world world-rag" data-expanded="false" id="rag-project">
+<div aria-hidden="true" class="world-glow"></div>
+<div class="project-grid shell">
+<div class="project-copy reveal">
+<div class="project-index">04 / APPLIED AI &amp; RETRIEVAL</div>
+<h3>Enterprise RAG Assistant</h3>
+<div aria-label="Project problem, key decision and outcome" class="project-outcome"><div><span>Problem</span><strong>RAG is unreliable for exact numerical questions and weak at exact-token retrieval.</strong></div><div><span>System decision</span><strong>route analytics to Pandas and semantics to hybrid retrieval.</strong></div><div><span>What it enables</span><strong>grounded citations plus a 29-case strict hybrid RAGAS evaluation with 0.947 composite.</strong></div></div><p class="project-summary">A two-route enterprise assistant: exact CSV/Excel analytics go to deterministic Pandas computation; semantic questions use BGE + BM25 hybrid retrieval, CrossEncoder reranking and source-grounded answers, served through FastAPI with a React + Vite frontend.</p>
+<div class="metric-row"><div><strong>0.947</strong><span>strict hybrid RAGAS composite</span></div><div><strong>0.966</strong><span>faithfulness</span></div><div><strong>29</strong><span>strict evaluation cases</span></div></div>
+<div class="stack"><span>FastAPI</span><span>React + Vite</span><span>BGE + BM25</span><span>CrossEncoder</span><span>Pandas</span></div>
+<details class="project-details"><summary>Engineering decisions, role and limitations</summary><dl class="project-facts">
+<div><dt>My role</dt><dd>Built multi-format ingestion, persistent Chroma storage, hybrid search, CrossEncoder reranking, query routing, Pandas analytics, FastAPI integration and the React + Vite web frontend.</dd></div>
+<div><dt>Key decision</dt><dd>Separate computation from retrieval: CSV/Excel aggregations go to Pandas; semantic questions go to RAG.</dd></div>
+<div><dt>Hardest problem</dt><dd>Exact IDs and numerical questions looked confident but failed under pure vector search, requiring BM25 and deterministic routing.</dd></div>
+<div><dt>Boundary</dt><dd>Current public evidence is the repository, video walkthrough and evaluation report. The separate 1,642-case production benchmark still has an open latency acceptance gate.</dd></div>
+</dl></details><div class="project-actions">
+<a aria-label="GitHub (opens in a new tab)" class="button project-button" href="https://github.com/shivamrajput-ds/enterprise-rag-assistant" rel="noopener" target="_blank">GitHub <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Video walkthrough (opens in a new tab)" class="button project-button" href="https://youtu.be/Rvdz9DKtz5o" rel="noopener" target="_blank">Video <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Docker profile (opens in a new tab)" class="text-link" href="https://hub.docker.com/u/shivamrajput130" rel="noopener" target="_blank">Docker profile <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="View RAG evaluation methodology (opens in a new tab)" class="text-link" href="https://github.com/shivamrajput-ds/enterprise-rag-assistant/blob/main/EVALUATION_REPORT.md" rel="noopener" target="_blank">Evaluation source of truth <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a></div><button aria-expanded="false" class="case-study-toggle" data-case-toggle="rag-project" type="button">Explore full retrieval story</button>
+</div>
+<div class="project-stage reveal" data-delay="100">
+<div class="stage-shell stage-rag story-stage" data-story="rag">
+<div class="stage-head"><span>INTERACTIVE 3D · RETRIEVAL STORY</span><i id="rag-status">DOCUMENTS ARRIVING</i></div><div class="stage-viewport"><picture class="stage-poster"><img alt="Enterprise RAG retrieval workflow poster" decoding="async" height="760" src="assets/images/poster-rag.webp" width="1200"/></picture><span class="stage-loading">Preparing 3D scene…</span><canvas aria-describedby="rag-3d-help" aria-label="Self-running 3D explanation of analytics routing and hybrid RAG" id="rag-3d" role="img" tabindex="0"></canvas><p class="sr-only" id="rag-3d-help">Use left and right arrow keys to rotate the 3D scene, up and down arrows to tilt it, and Home to reset the view.</p><div aria-hidden="true" class="stage-fallback"><strong>Interactive 3D explanation unavailable.</strong><span>The written case study remains fully accessible.</span></div><div aria-hidden="true" class="story-hud">
+<div><span>QUERY</span><strong id="rag-hud-query">Loading corpus</strong></div>
+<div><span>ROUTE</span><strong id="rag-hud-route">Not selected</strong></div>
+<div><span>EVIDENCE</span><strong id="rag-hud-output">0 sources</strong></div>
+</div></div>
+<div class="story-toolbar">
+<button aria-label="Play or pause RAG story" class="story-play" data-story-play="rag" type="button">Pause</button>
+<button class="story-restart" data-story-restart="rag" type="button">Restart</button>
+<button aria-label="Previous chapter" class="story-prev" data-story-prev="rag" type="button">Previous</button><div aria-label="RAG story progress" class="story-progress"><span id="rag-progress"></span></div><button aria-label="Next chapter" class="story-next" data-story-next="rag" type="button">Next</button>
+<output id="rag-time">00:00 / 00:58</output>
+</div>
+<span aria-hidden="true" class="chapter-hint">Swipe chapters →</span><div aria-label="RAG story chapters" class="scene-controls story-chapters">
+<button class="active" data-rag-phase="ingest" type="button">1. Ingest</button>
+<button data-rag-phase="chunk" type="button">2. Chunk</button>
+<button data-rag-phase="embed" type="button">3. Embed</button>
+<button data-rag-phase="route" type="button">4. Route query</button>
+<button data-rag-phase="analytics" type="button">5. Pandas route</button>
+<button data-rag-phase="retrieve" type="button">6. Hybrid search</button>
+<button data-rag-phase="rerank" type="button">7. Rerank</button>
+<button data-rag-phase="answer" type="button">8. Cite answer</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="scene-caption story-caption" id="rag-caption" role="status">
+<div><strong>Documents become searchable evidence</strong><span>Seven validated formats - PDF, DOCX, CSV, JSON, TXT, XLS and XLSX - enter the ingestion layer with source metadata.</span></div>
+<p><b>Why it matters:</b> <span id="rag-why">The system has to preserve source identity before retrieval can be trusted.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="evidence-heading shell"><span>REPOSITORY EVIDENCE</span><p>Selected current repository assets - shown at natural aspect ratio and available full size.</p></div><div aria-label="Enterprise RAG screenshots" class="evidence-gallery shell reveal evidence-gallery--3"><figure class="evidence-item evidence-item--primary"><button aria-label="Open full-size image: Grounded answer with source evidence" data-caption="Grounded answer with source evidence" data-lightbox="assets/images/rag-answer.webp" type="button"><img alt="Enterprise RAG grounded answer with source citation" decoding="async" height="952" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/rag-answer.webp" width="1917"/></button><figcaption><span>Grounded answer with source evidence</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: 29-case strict hybrid RAGAS evaluation" data-caption="29-case strict hybrid RAGAS evaluation" data-lightbox="assets/images/rag-evaluation.webp" type="button"><img alt="Terminal summary for the 29-case strict hybrid RAGAS evaluation" decoding="async" height="732" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/rag-evaluation.webp" width="1460"/></button><figcaption><span>29-case strict hybrid RAGAS evaluation</span><small>Open full size</small></figcaption></figure><figure class="evidence-item"><button aria-label="Open full-size image: read-only knowledge registry interface" data-caption="Read-only knowledge registry interface" data-lightbox="assets/images/rag-registry.webp" type="button"><img alt="Enterprise RAG read-only knowledge registry interface" decoding="async" height="956" loading="lazy" sizes="(max-width: 760px) 94vw, (max-width: 1200px) 46vw, 31vw" src="assets/images/rag-registry.webp" width="1917"/></button><figcaption><span>Read-only knowledge registry interface</span><small>Open full size</small></figcaption></figure></div>
+</article></section>
+<section aria-labelledby="skills-title" class="skills shell" id="skills">
+<header class="section-header reveal">
+<p class="eyebrow">TECHNICAL CAPABILITY</p>
+<h2 id="skills-title">Skills grouped by the work they <span>enable.</span></h2>
+<p>No percentage bars. The page emphasizes skills demonstrated in projects; Advanced Excel and Power Query are currently being strengthened.</p>
+</header>
+<div class="skills-grid"><article class="skill-card reveal"><b>01</b><h3>Data &amp; SQL</h3><p>Python, SQL, Pandas, NumPy, PyArrow, Microsoft SQL Server, EDA, validation, chunked processing and Parquet workflows.</p></article><article class="skill-card reveal" data-delay="40"><b>02</b><h3>Statistics &amp; Experimentation</h3><p>A/B testing, p-values, confidence intervals, chi-square tests, effect sizes, power planning, SciPy and Statsmodels.</p></article><article class="skill-card reveal" data-delay="80"><b>03</b><h3>Machine Learning</h3><p>scikit-learn pipelines, classification, regression, cross-validation, forecasting, class imbalance, leakage checks, model evaluation and SHAP.</p></article><article class="skill-card reveal" data-delay="120"><b>04</b><h3>NLP &amp; Forecasting</h3><p>TF-IDF, text classification, topic modeling, Logistic Regression, time-series holdout validation and Prophet forecasting.</p></article><article class="skill-card reveal"><b>05</b><h3>RAG &amp; Applied AI</h3><p>Embeddings, BGE, ChromaDB, BM25, hybrid retrieval, query routing, CrossEncoder reranking, grounding and LangGraph.</p></article><article class="skill-card reveal" data-delay="40"><b>06</b><h3>Engineering &amp; MLOps</h3><p>FastAPI, REST APIs, React + Vite, Streamlit, Docker, MLflow, pytest, Ruff, Git, GitHub Actions, logging and reproducible configuration.</p></article></div>
+</section>
+<section aria-labelledby="about-title" class="about shell" id="about">
+<div class="about-card reveal">
+<div class="portrait"><img alt="Shivam Rajput" decoding="async" height="460" loading="lazy" src="assets/images/shivam-avatar.jpg" width="460"/><span>OPEN TO INTERNSHIPS</span></div>
+<div class="about-copy">
+<p class="eyebrow">ABOUT</p>
+<h2 id="about-title">Junior Data Scientist with an <span>engineering mindset.</span></h2>
+<p>I am pursuing B.Tech CSE with an AI &amp; ML specialization at Uttaranchal University. I enjoy turning messy data and ambiguous questions into analyses and systems whose assumptions, evidence and outputs can be inspected.</p>
+<p>My public work spans large-scale complaint analytics, statistical experimentation, ML audit reliability and enterprise RAG - supported by tests, evaluation artifacts, APIs, demos and documented trade-offs.</p>
+<div class="about-meta">
+<div><span>Education</span><strong>B.Tech CSE (AI &amp; ML), 2023-2027</strong></div>
+<div><span>CGPA</span><strong>8.7 / 10.0</strong></div>
+<div><span>Location</span><strong>Dehradun, India</strong></div>
+<div><span>Current focus</span><strong>Data Science interviews, SQL and Advanced Excel</strong></div>
+</div>
+<div class="profile-links">
+<a aria-label="GitHub (opens in a new tab)" href="https://github.com/shivamrajput-ds" rel="noopener" target="_blank">GitHub <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="LinkedIn (opens in a new tab)" href="https://www.linkedin.com/in/shivam-rajput-b0407632b/" rel="noopener" target="_blank">LinkedIn <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="LeetCode (opens in a new tab)" href="https://leetcode.com/u/ShivamSynapse/" rel="noopener" target="_blank">LeetCode <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Kaggle (opens in a new tab)" href="https://www.kaggle.com/shivamja" rel="noopener" target="_blank">Kaggle <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+<a aria-label="Docker Hub (opens in a new tab)" href="https://hub.docker.com/u/shivamrajput130" rel="noopener" target="_blank">Docker Hub <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="resume-title" class="resume-cta shell reveal">
+<div><p class="eyebrow">ONE-PAGE ATS RESUME</p><h2 id="resume-title">The same work, written for <span>recruiters and ATS.</span></h2><p>One page, ATS-readable, four selected projects and quantified outcomes without unsupported experience claims.</p></div>
+<a aria-label="Download resume (opens in a new tab)" class="button button-primary" href="assets/resume/resume.pdf" rel="noopener" target="_blank"><span>Download resume</span><b><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></b></a>
+</section>
+<section aria-labelledby="contact-title" class="contact shell" id="contact">
+<div class="contact-copy reveal">
+<p class="eyebrow">CONTACT</p>
+<h2 id="contact-title">Let's discuss a <span>Data Science or Applied ML opportunity.</span></h2>
+<p>Open to internships where I can work on analytics, machine learning, NLP or reliable AI systems. Use the form or email me directly.</p>
+<a class="direct-email" href="mailto:shivamrajput.datascientist@gmail.com">shivamrajput.datascientist@gmail.com <svg aria-hidden="true" class="link-icon" fill="none" viewbox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M19 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg></a><div class="contact-direct-actions"><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=shivamrajput.datascientist@gmail.com" rel="noopener" target="_blank">Open Gmail compose</a><button id="copy-email" type="button">Copy email</button></div>
+</div>
+<form action="" class="contact-form reveal" data-delay="80" data-recipient="c2hpdmFtcmFqcHV0LmRhdGFzY2llbnRpc3RAZ21haWwuY29t" id="contact-form" method="POST" novalidate="">
+<input name="_subject" type="hidden" value="Portfolio message for Shivam Rajput"/><input name="_captcha" type="hidden" value="true"/>
+<input name="_template" type="hidden" value="table"/>
+<input aria-hidden="true" autocomplete="off" class="honeypot" name="_honey" tabindex="-1" type="text"/>
+<label><span>Name</span><input autocomplete="name" minlength="2" name="name" placeholder="Your full name" required="" type="text"/></label>
+<label><span>Email</span><input autocomplete="email" name="email" placeholder="you@company.com" required="" type="email"/></label>
+<label class="full"><span>Message</span><textarea minlength="20" name="message" placeholder="Role, opportunity, collaboration, or feedback..." required="" rows="5"></textarea></label>
+<button class="button button-primary full" id="contact-submit" type="submit"><span>Send message</span><b><svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="17"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></b></button>
+<p aria-live="polite" class="form-status full" id="form-status" role="status">Form submission · direct email available above.</p><p class="form-privacy full">Privacy: your name, email and message are used only to respond to this enquiry.</p>
+</form>
+</section>
+</main>
+<footer class="site-footer shell">
+<span>© <span id="year"></span> Shivam Rajput</span>
+<span>Junior Data Scientist · Statistics, ML &amp; Reliable AI</span>
+<a href="#top">Back to top ↑</a>
+</footer>
+<dialog class="lightbox" id="lightbox">
+<button aria-label="Close image viewer" class="lightbox-close" type="button"><svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24" width="20"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+<img alt="" id="lightbox-image"/>
+<p id="lightbox-caption"></p>
+</dialog>
+<script defer="" src="app.js"></script></body>
 </html>
